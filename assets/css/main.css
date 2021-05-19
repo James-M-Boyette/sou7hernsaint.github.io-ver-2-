@@ -2153,9 +2153,9 @@ button,
   border-radius: 0.375em;
   border: 0;
   /* box-shadow: inset 0 0 0 2px #f56a6a; */
-  box-shadow: inset 0 0 0 2px #6a78f5;
+  box-shadow: inset 0 0 0 2px #47535e;
   /* color: #f56a6a !important; */
-  color: #916af5 !important;
+  color: #c2e4ff !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto Slab", serif;
@@ -2170,6 +2170,7 @@ button,
   text-transform: uppercase;
   white-space: nowrap;
 }
+
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
@@ -2959,6 +2960,56 @@ button:disabled,
   font-style: normal;
   margin: 0;
   font-size: 1.5em;
+}
+/* Navbar */
+#navbar {
+  box-shadow: inset 0 0 0 2px #52606d, 0 0 0 2px #31383e !important;
+  border-radius: 5px;
+  background-color: #424f5a;
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 !important;
+  text-align: center;
+  color: #c2e4ff;
+  position: relative;
+  height: 58px;
+  /* width: 100%; */
+}
+.navbar_button {
+  box-shadow: inset 0 0 0 2px #52606d, 0 0 0 2px #31383e !important;
+  border-radius: 8px;
+
+  background-color: rgba(103, 115, 128, 0.95);
+  color: #abc6df !important;
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+  font-weight: 700;
+  height: 2.5em !important;
+  letter-spacing: 0.175em !important;
+  line-height: 2.5em !important;
+  /* Controls padding in buttons */
+  padding: 0 3 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  margin-top: 7px !important;
+  max-width: 250px !important;
+  border-width: 42px !important;
+  /* Controls spacing between nav buttons */
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  /* position: absolute imp !important; */
+  cursor: pointer;
+  /* display: inline-block; */
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 /* Banner */
