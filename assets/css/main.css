@@ -398,6 +398,11 @@ pre code {
   overflow-x: auto;
 }
 
+.code2 {
+  padding: 0 1.5em !important;
+  margin: 0 0 !important;
+}
+
 hr {
   border: 0;
   border-bottom: solid 1px rgba(210, 215, 217, 0.75);
@@ -1814,7 +1819,7 @@ input[type="radio"] + label:before {
   padding-bottom: 10%;
   text-align: justify !important;
   color: #2a2d2e !important;
-  
+
   text-shadow: 0 0 5px #fde4b3;
 }
 .card_button {
@@ -3333,10 +3338,16 @@ button:disabled,
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
+}
+
+.tooltip-top {
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 .tooldisclaimer.tooldisclaimer {
   margin-left: 68px;
@@ -3368,4 +3379,11 @@ button:disabled,
   line-height: 1.5;
   margin: 0 0 1em 0;
   font-size: 1.75em;
+}
+
+.robot {
+  font-family: "VT323", monospace;
+}
+.reality {
+  font-family: "VT323", monospace;
 }
