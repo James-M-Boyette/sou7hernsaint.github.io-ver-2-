@@ -398,9 +398,23 @@ pre code {
   overflow-x: auto;
 }
 
+.pre2 {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  display: block;
+  line-height: 1.75;
+  margin: 0 0 0em 0 !important;
+  padding: 0em 0em !important;
+  overflow-x: auto;
+}
 .code2 {
-  padding: 0 1.5em !important;
-  margin: 0 0 !important;
+  background: rgba(230, 235, 237, 0.25);
+  border-radius: 0.375em;
+  border: solid 1px rgba(210, 215, 217, 0.75);
+  font-family: "Courier New", monospace;
+  font-size: 1.25em !important;
+  margin: 0em 0em !important;
+  padding: 1em 3em !important;
 }
 
 hr {
@@ -2266,6 +2280,20 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.button2 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: transparent;
 }
 
 input[type="submit"]:hover,
