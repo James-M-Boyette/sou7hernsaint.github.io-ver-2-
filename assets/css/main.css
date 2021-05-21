@@ -429,6 +429,9 @@ pre code {
   margin: 0em 0em !important;
   padding: 1em 3em !important;
 }
+.emphasize {
+  box-shadow: 10px 5px 5px red !important;
+}
 
 hr {
   border: 0;
